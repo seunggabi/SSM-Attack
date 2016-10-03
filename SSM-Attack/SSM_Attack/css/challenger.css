@@ -1,0 +1,118 @@
+@font-face {
+    font-family: myFont1;
+    src: url("../fonts/Blox2.ttf");
+}
+
+
+@font-face {
+    font-family: myFont2;
+    src: url("../fonts/BebasNeue.otf");
+}
+
+body{
+	background: black;
+	text-align: center;
+}
+
+
+#side{
+	margin: 0 auto;
+	margin-top:100px;
+	float: left;
+}
+
+#self{
+	width:300px;
+	height: 225px;
+	background-color: white;
+	margin-bottom: 35px;
+}
+
+#challenger{
+
+
+}
+
+#score{
+
+
+}
+
+#timer{
+
+}
+
+#game, #gameCam{
+	float: right;
+	height: 600px;
+	position: absolute;
+}
+
+#game
+{
+	margin-top:100px;
+	background-image: url('/SSM_Attack/img/bg.jpg');
+	z-index:50;
+}
+
+#gameCam
+{
+	margin-right:100px;
+	margin-top:100px;
+}
+
+.info{
+	width:300px;
+	height: 100px;
+	color:white;
+	font-family: myFont2;
+	font-size:20pt;
+	background-color: #1976D2;
+	margin-bottom: 20px;
+	margin-top:-2px;
+}
+
+.info2{
+	text-align: center;
+	font-size:40pt;
+	margin-top:-10px;
+}
+
+footer{
+	font-size:200%;
+	font-family:myFont2;
+	position:fixed;
+	left:0px;
+	bottom:20px;
+	height:30px;
+	width:100%;
+	text-align: center;
+	color: white;
+}
+
+#content
+{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100px;
+}
+
+video, canvas
+{
+	transform: rotateY(180deg);
+	-webkit-transform:rotateY(180deg); 
+	-moz-transform:rotateY(180deg); 
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+}
+
+div.dg.main.a
+{
+	display:none;
+}
+
+.enemyRect
+{
+	background-color: red;
+	border: 1px solid black;
+}

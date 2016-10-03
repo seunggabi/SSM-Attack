@@ -1,0 +1,79 @@
+@font-face {
+    font-family: myFont1;
+    src: url("../fonts/Blox2.ttf");
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url("../fonts/BebasNeue.otf");
+}
+
+body {
+    color: white;
+    padding-top:0px;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+#a{
+	color: #D32F2F;
+}
+
+#ssm{
+	color:#1976D2;
+}
+
+nav{
+	margin-top:100px;
+	margin-bottom: 100px;
+}
+
+nav div{
+	display: inline-block;
+	font-family: myFont1;
+	font-size: 1000%;
+}
+
+#go{
+	font-size:200%;
+	font-family: myFont2;
+}
+
+footer{
+	font-size:200%;
+	font-family:myFont2;
+	position:fixed;
+   left:0px;
+   bottom:20px;
+   height:30px;
+   width:100%;
+}
+
+form{
+	width:450px;
+	margin: 0 auto;
+}
+
+#name{
+	margin: 0 auto;
+	width: 450px;
+	margin-bottom: 0px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	font-size:120%;
+	height: 50px;
+	
+	text-align: center;
+}
+
+#go{
+	width: 450px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top-style: none;
+}
+audio
+{
+	visibility: hidden;
+}
